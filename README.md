@@ -6,22 +6,26 @@ This repository presents a comprehensive implementation of a basic Arithmetic Lo
 
 <h2>
   <b>Project Phases</b></h2>
+  <p>
 <b><u>Phase 1: Instruction Set Architecture</u></b>
-In this foundational phase, we define a binary instruction set that encompasses essential operations such as addition, subtraction, multiplication, and division, alongside bitwise operations (AND, OR, XOR) and bit shifting (SHL, SHR). Each instruction is meticulously documented, detailing its binary representation, operational semantics, and the interactions with the accumulator and operand registers.
 
+In this foundational phase, we define a binary instruction set that encompasses essential operations such as addition, subtraction, multiplication, and division, alongside bitwise operations (AND, OR, XOR) and bit shifting (SHL, SHR). Each instruction is meticulously documented, detailing its binary representation, operational semantics, and the interactions with the accumulator and operand registers.</p>
+<p>
 <b>
 <u>Phase 2: Assembly Language Integration</u></b>
-This phase introduces an assembly language layer that allows users to write higher-level instructions for the ALU. The assembly code facilitates operations such as iterative addition until a specified condition is met and right shifting until certain criteria are fulfilled. The design emphasizes clarity and efficiency, ensuring that the assembly language instructions are intuitive and easy to follow.
 
+This phase introduces an assembly language layer that allows users to write higher-level instructions for the ALU. The assembly code facilitates operations such as iterative addition until a specified condition is met and right shifting until certain criteria are fulfilled. The design emphasizes clarity and efficiency, ensuring that the assembly language instructions are intuitive and easy to follow.</p>
+<p>
 <b>
 <u>Phase 3: Simulation and Validation</u></b>
-The final phase focuses on simulating the ALU operations within Logisim, validating the functionality of each instruction through rigorous testing. The results are analyzed to confirm that the ALU performs as expected, providing a robust platform for further exploration and enhancement.
 
+The final phase focuses on simulating the ALU operations within Logisim, validating the functionality of each instruction through rigorous testing. The results are analyzed to confirm that the ALU performs as expected, providing a robust platform for further exploration and enhancement.</p>
+<p>
 <h2><b>Features</b></h2>
 Comprehensive instruction set with detailed descriptions and operational semantics.
 Assembly language support for intuitive programming of ALU operations.
 Modular design, allowing for easy extension and integration of additional functionalities.
-Thorough documentation to facilitate understanding and usability.
+Thorough documentation to facilitate understanding and usability.</p>
 
 <h2><b>Conclusion</b></h2>
 This project serves as an educational resource for those interested in digital logic design and computer architecture. It provides a foundational understanding of ALU operations and encourages further exploration into more complex computational systems.
